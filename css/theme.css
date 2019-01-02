@@ -1,0 +1,34 @@
+body {
+    background-color: #162233;
+}
+
+section a {
+    color: #9e9e9e;
+    text-decoration: none;
+}
+section a:hover{
+    color: #9e9e9e;
+    text-decoration: none;
+}
+
+.link-selected a, .link-selected a:hover, .link-selected i{
+    color: #f50057;
+}
+
+.layout-left-sidebar {
+    border-right: 1px solid #37474f;
+    color: white;
+}
+
+.layout-content {
+    color: white;
+}
+
+.left-bar-section-title {
+    color: #9e9e9e;
+}
+
+.left-bar-icon {
+    color: white;
+    margin-right: 15px;
+}

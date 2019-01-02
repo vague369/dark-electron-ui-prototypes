@@ -5,8 +5,8 @@
     top: 0;
     left: 0;
     overflow-x: hidden;
-    border-right: 1px solid #37474f;
-    padding: 5px;
+    padding-top: 30px;
+    padding-left: 20px;
 }
 
 .layout-content {
