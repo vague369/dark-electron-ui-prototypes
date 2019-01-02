@@ -19,6 +19,7 @@ State rules are ways to describe how modules or layouts look when in a particula
 ## Theme Rules
 Theme rules define colors and images that can be easily redefined for altername themes. 
 
-*Reference:https://smacss.com/book*
+_Reference:https://smacss.com/book_
+
 [dark-electron]: https://github.com/vague369/dark-electron
 [smacss]: https://smacss.com/book/
