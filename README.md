@@ -16,6 +16,9 @@ Modules are the reusable and modular parts of the design.
 ## State Rules
 State rules are ways to describe how modules or layouts look when in a particular state.
 
+## Theme Rules
+Theme rules define colors and images that can be easily redefined for altername themes. 
+
 *Reference:https://smacss.com/book*
 [dark-electron]: https://github.com/vague369/dark-electron
 [smacss]: https://smacss.com/book/
