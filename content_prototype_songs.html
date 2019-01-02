@@ -11,32 +11,35 @@
         <!-- FontAwesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
+        <!-- Extrenal Font -->
+        <link href="https://fonts.googleapis.com/css?family=Concert+One|Roboto" rel="stylesheet">
+
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div>
             <nav class="layout-left-sidebar">
                 <section class="music-library-section">
-                    <p class="left-bar-section-title text-uppercase font-weight-bold">Library</p>
+                    <p class="left-bar-section-title text-uppercase">Library</p>
                     <ul class="left-bar-section-list list-unstyled">
                         <li>
                             <a href="#">
-                                <p class="font-weight-bold"><i class="left-bar-icon fas fa-headphones"></i>Playlists</p>
+                                <p><i class="left-bar-icon fas fa-headphones"></i>Playlists</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <p class="font-weight-bold"><i class="left-bar-icon fas fa-guitar"></i>Artists</p>
+                                <p><i class="left-bar-icon fas fa-guitar"></i>Artists</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <p class="font-weight-bold"><i class="left-bar-icon fas fa-images"></i>Albums</p>
+                                <p><i class="left-bar-icon fas fa-images"></i>Albums</p>
                             </a>
                         </li>
                         <li class="link-selected">
                             <a href="#">
-                                <p class="font-weight-bold"><i class="left-bar-icon fas fa-music"></i>Songs</p>
+                                <p><i class="left-bar-icon fas fa-music"></i>Songs</p>
                             </a>
                         </li>
                     </ul>
@@ -46,17 +49,17 @@
                     <ul class="left-bar-section-list list-unstyled">
                         <li>
                             <a href="#">
-                                <p class="font-weight-bold"><i class="left-bar-icon fas fa-heart"></i>Favorites</p>
+                                <p><i class="left-bar-icon fas fa-heart"></i>Favorites</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <p class="font-weight-bold"><i class="left-bar-icon fas fa-folder"></i>Browse</p>
+                                <p><i class="left-bar-icon fas fa-folder"></i>Browse</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <p class="font-weight-bold"><i class="left-bar-icon fas fa-clock"></i>Recents</p>
+                                <p><i class="left-bar-icon fas fa-clock"></i>Recents</p>
                             </a>
                         </li>
                     </ul>
@@ -66,13 +69,17 @@
                     <ul class="left-bar-section-list list-unstyled">
                         <li>
                             <a href="#">
-                                <p class="font-weight-bold"><i class="left-bar-icon fas fa-bed"></i>Sleep Timer</p>
+                                <p><i class="left-bar-icon fas fa-bed"></i>Sleep Timer</p>
                             </a>
                         </li>
                     </ul>
                 </section>
             </nav>
             <section class="layout-content">
+                <header class="row song-content-header">
+                    <p class="col song-content-title text-uppercase">Songs</p>
+                    <i id="col song-content-search" class="fa-lg fas fa-search"></i>
+                </header>
             </section>
         </div>
     </body>

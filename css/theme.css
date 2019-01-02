@@ -1,12 +1,13 @@
 body {
     background-color: #162233;
+    font-family: "Roboto", sans-serif;
 }
 
-section a {
+.layout-left-sidebar a {
     color: #9e9e9e;
     text-decoration: none;
 }
-section a:hover{
+.layout-left-sidebar a:hover{
     color: #9e9e9e;
     text-decoration: none;
 }
@@ -30,5 +31,8 @@ section a:hover{
 
 .left-bar-icon {
     color: white;
-    margin-right: 15px;
+}
+
+.song-content-title {
+    font-family: "Concert One", cursive;
 }
