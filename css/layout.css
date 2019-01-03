@@ -34,11 +34,11 @@
 }
 
 #current-playing-section {
+    margin-top: 27px;
     width: 12rem;
     height: 10rem;
     box-shadow: 3px 3px 5px black;
     margin-left: 15px;
-    background-color: white;
     border-radius: 5px;
 }
 
@@ -48,19 +48,51 @@
     border-radius: 1px;
 }
 
-#current-playing-controls {
+#current-playing-info {
+    position: relative;
     width: 12rem;
-    height: 3rem;
+    height: 3.4rem;
+    padding-top: 5px;
 }
 
-#current-playing-controls span {
+#current-playing-info span {
     margin-left: 10px;
 }
 
-#current-playing-controls i {
+#current-playing-info .fa-heart {
+    position: absolute;
+    right: 0;
     margin: 5px;
 }
 
-#current-playing-songtitle {
-    margin-right: 50px;
+#current-playing-info .fa-headphones {
+    position: absolute;
+    right: 0;
+    margin: 5px;
+    margin-right: 30px;
+}
+
+#current-playing-queue {
+    margin-left: 50px;
+}
+
+#queue-up-next {
+    font-size: 1.5em;
+}
+
+#current-playing-controls {
+    height: 3rem;
+    margin-left: 0px;
+}
+
+#progress-endduration {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+.control-spinner-section {
+    position: relative;
+    align-self: center;
 }

@@ -35,17 +35,42 @@ body {
 
 .song-content-title {
     font-family: "Concert One", cursive;
+    letter-spacing: 0.3em;
 }
 
-#current-playing-controls {
-    background-color: white;
-    color: #555555;
+#current-playing-info {
+    background-color: #f50057;
+    color: white;
 }
 
-#current-playing-controls i {
+#current-playing-info i {
+    color: white;
+}
+
+#current-playing-info .fa-headphones {
+    color: #162233;
+}
+
+#queue-up-next {
+    font-family: "Roboto", cursive;
+}
+
+.queue-list-item {
+    border-top: 0.5px solid #37474f;
+}
+
+.progress-bar {
+    background-color: #f50057;
+}
+
+#control-shuffleicon {
     color: #f50057;
 }
 
-#current-playing-controls .fa-headphones {
-    color: black;
+#control-pauseicon {
+    color: #f50057;
+}
+
+#current-playing-section {
+    background-color: white;
 }

@@ -78,22 +78,74 @@
             </nav>
             <section class="layout-content">
                 <header class="row song-content-header">
-                    <p class="col song-content-title text-uppercase">All Songs</p>
+                    <p class="col song-content-title text-uppercase">Songs</p>
                     <i id="col song-content-search" class="fa-lg fas fa-search"></i>
                 </header>
                 <section class="row song-content-playqueue">
                     <section id="current-playing-section">
                         <img id="current-playing-image" alt="Card Image" src="images/chain.jpg"/>
-                        <section id="current-playing-controls">
-                            <span id="current-playing-songtitle"> Song Title </span>
+                        <section id="current-playing-info">
+                            <span id="current-playing-songtitle">All we know</span>
                             <i class="fas fa-headphones"></i>
                             <i class="fas fa-heart"></i>
                             <br>
-                            <span class="small-text"> Song Artist </span>
+                            <span class="small-text">The Chainsmokers</span>
                         </section>
                     </section>
-                    
+                    <section id="current-playing-queue">
+                        <span id="queue-up-next"> Up Next </span>
+                        <ul class="list-unstyled">
+                            <li class="row queue-list-item">
+                                <i class="drag-icon fas fa-angle-up"></i>
+                                <img class="queue-thumbnail thumbnail" src="images/img.jpg"></img>
+                                <section class="queue-songinfo">
+                                    <span>Trouble</span>
+                                    <br>
+                                    <span class="small-text">Avicii</span>
+                                </section>
+                                <span class="queue-songduration">2:51</span>
+                                <i class="queue-removeicon fas fa-minus"></i>
+                            </li>
+                            <li class="row queue-list-item">
+                                <i class="drag-icon fas fa-angle-up"></i>
+                                <img class="queue-thumbnail thumbnail" src="images/chain.jpg"></img>
+                                <section class="queue-songinfo">
+                                    <span>Closer</span>
+                                    <br>
+                                    <span class="small-text">The Chainsmokers</span>
+                                </section>
+                                <span class="queue-songduration">3:15</span>
+                                <i class="queue-removeicon fas fa-minus"></i>
+                            </li>
+                            <li class="row queue-list-item">
+                                <i class="drag-icon fas fa-angle-up"></i>
+                                <img class="queue-thumbnail thumbnail" src="images/jbell.jpg"></img>
+                                <section class="queue-songinfo">
+                                    <span>Conversation with my wife</span>
+                                    <br>
+                                    <span class="small-text">Jon Bellion</span>
+                                </section>
+                                <span class="queue-songduration">2:30</span>
+                                <i class="queue-removeicon fas fa-minus"></i>
+                            </li>
+                        </ul>
+                        <section class="row" id="current-playing-controls">
+                            <i class="control-margin col1 fas fa-step-backward"></i>
+                            <i id="control-pauseicon" class="control-margin col1 fas fa-pause"></i>
+                            <i class="control-margin col1 fas fa-step-forward"></i>
+                            <section class="control-margin col control-spinner-section">
+                                <div class="progress">
+                                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <span class="small-text">2:22</span>
+                                <spa id="progress-endduration" class="small-text">3:10</span>
+                            </section>
+                            <i id="control-shuffleicon" class="control-margin col1 fas fa-random"></i>
+                            <i class="control-margin col1 fas fa-volume-up"></i>
+                        </section>
+                    </section>
                 </section>
+                
             </section>
         </div>
     </body>
