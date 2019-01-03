@@ -36,3 +36,16 @@ body {
 .song-content-title {
     font-family: "Concert One", cursive;
 }
+
+#current-playing-controls {
+    background-color: white;
+    color: #555555;
+}
+
+#current-playing-controls i {
+    color: #f50057;
+}
+
+#current-playing-controls .fa-headphones {
+    color: black;
+}

@@ -17,7 +17,7 @@
 }
 
 .song-content-header {
-    padding-top: 20px;
+    padding-top: 5px;
     display: flex;
     justify-content: flex-end;
     position: fixed;
@@ -25,10 +25,42 @@
     align-items: center;
 }
 
-
-#song-content-search {
-}
-
 .song-content-title {
     font-size: 2.5em;
+}
+
+.song-content-playqueue {
+    margin-top: 100px;
+}
+
+#current-playing-section {
+    width: 12rem;
+    height: 10rem;
+    box-shadow: 3px 3px 5px black;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#current-playing-image {
+    width: 12rem;
+    height: 10rem;
+    border-radius: 1px;
+}
+
+#current-playing-controls {
+    width: 12rem;
+    height: 3rem;
+}
+
+#current-playing-controls span {
+    margin-left: 10px;
+}
+
+#current-playing-controls i {
+    margin: 5px;
+}
+
+#current-playing-songtitle {
+    margin-right: 50px;
 }

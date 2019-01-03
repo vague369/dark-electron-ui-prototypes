@@ -8,6 +8,7 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
+
         <!-- FontAwesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
@@ -45,7 +46,7 @@
                     </ul>
                 </section>
                 <section class="discover-section">
-                    <p class="left-bar-section-title text-uppercase font-weight-bold">Discover</p>
+                    <p class="left-bar-section-title text-uppercase">Discover</p>
                     <ul class="left-bar-section-list list-unstyled">
                         <li>
                             <a href="#">
@@ -65,7 +66,7 @@
                     </ul>
                 </section>
                 <section>
-                    <p class="left-bar-section-title text-uppercase font-weight-bold">More</p>
+                    <p class="left-bar-section-title text-uppercase">More</p>
                     <ul class="left-bar-section-list list-unstyled">
                         <li>
                             <a href="#">
@@ -77,9 +78,22 @@
             </nav>
             <section class="layout-content">
                 <header class="row song-content-header">
-                    <p class="col song-content-title text-uppercase">Songs</p>
+                    <p class="col song-content-title text-uppercase">All Songs</p>
                     <i id="col song-content-search" class="fa-lg fas fa-search"></i>
                 </header>
+                <section class="row song-content-playqueue">
+                    <section id="current-playing-section">
+                        <img id="current-playing-image" alt="Card Image" src="images/chain.jpg"/>
+                        <section id="current-playing-controls">
+                            <span id="current-playing-songtitle"> Song Title </span>
+                            <i class="fas fa-headphones"></i>
+                            <i class="fas fa-heart"></i>
+                            <br>
+                            <span class="small-text"> Song Artist </span>
+                        </section>
+                    </section>
+                    
+                </section>
             </section>
         </div>
     </body>
