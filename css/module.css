@@ -55,3 +55,7 @@
 .control-margin {
     margin: 8px;
 }
+
+.big-text {
+    font-size: 2em;
+}

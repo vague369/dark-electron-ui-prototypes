@@ -74,3 +74,13 @@ body {
 #current-playing-section {
     background-color: white;
 }
+
+#allsongs-shuffle{
+    background-color: white;
+    color: #f50057;
+}
+
+#allsongs-play{
+    background-color: white;
+    color: #f50057;
+}

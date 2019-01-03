@@ -49,6 +49,7 @@
 }
 
 #current-playing-info {
+    box-shadow: 3px 3px 5px black;
     position: relative;
     width: 12rem;
     height: 3.4rem;
@@ -95,4 +96,33 @@
 .control-spinner-section {
     position: relative;
     align-self: center;
+}
+
+#song-content-allsongs {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#allsongs-header {
+    position: relative;
+}
+
+#allsongs-shuffle {
+    box-shadow: 2px 2px 5px black;
+    position: absolute;
+    right: 0;
+    margin-top: 8px;
+    margin-right: 90px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#allsongs-play {
+    box-shadow: 2px 2px 5px black;
+    position: absolute;
+    right: 0;
+    margin-top: 8px;
+    margin-right: 30px;
+    border-radius: 20px;
+    padding: 10px;
 }
