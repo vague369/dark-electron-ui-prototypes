@@ -1,6 +1,9 @@
 # dark-electron-ui-prototypes
 UI Prototypes for [Verge Music Player][dark-electron].
 
+## Songs
+![screenshot](https://github.com/vague369/dark-electron-ui-prototypes/blob/master/screenshots/screenshot.png)
+
 # CSS Architecture
 The CSS Architecture used is [SMACSS][smacss]
 
