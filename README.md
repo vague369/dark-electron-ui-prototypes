@@ -1,5 +1,5 @@
 # musicplayer-ui-prototype
-UI prototypes for a music player
+UI prototype for a music player
 
 ## Songs
 ![screenshot](https://github.com/vague369/dark-electron-ui-prototypes/blob/master/screenshots/screenshot.png)
