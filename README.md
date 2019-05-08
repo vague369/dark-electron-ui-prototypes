@@ -1,4 +1,4 @@
-# dark-electron-ui-prototypes
+# musicplayer-ui-prototype
 UI prototypes for a music player
 
 ## Songs
