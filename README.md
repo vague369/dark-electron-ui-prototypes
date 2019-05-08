@@ -1,5 +1,5 @@
 # dark-electron-ui-prototypes
-UI Prototypes for [Verge Music Player][dark-electron].
+UI prototypes for a music player
 
 ## Songs
 ![screenshot](https://github.com/vague369/dark-electron-ui-prototypes/blob/master/screenshots/screenshot.png)
@@ -24,5 +24,4 @@ Theme rules define colors and images that can be easily redefined for altername 
 
 _Reference:https://smacss.com/book_
 
-[dark-electron]: https://github.com/vague369/dark-electron
 [smacss]: https://smacss.com/book/
